@@ -1,0 +1,26 @@
+store_id,brand,store_name,region,visit_date,rep_name,compliance_score
+S001,OLIPOP,Target Phoenix,Southwest,2025-03-01,John D,92
+S002,OLIPOP,Whole Foods Pasadena,West Coast,2025-03-02,Emily R,95
+S003,OLIPOP,Sprouts Scottsdale,Southwest,2025-03-04,John D,78
+S004,OLIPOP,Target Glendale,Southwest,2025-03-06,Chris M,88
+S005,OLIPOP,Erewhon West Hollywood,West Coast,2025-03-08,Emily R,91
+S006,Guayaki,Whole Foods Austin,Southwest,2025-03-02,Anna K,90
+S007,Guayaki,Natural Grocers Denver,Midwest,2025-03-05,David P,74
+S008,Guayaki,Sprouts Portland,West Coast,2025-03-07,Emily R,82
+S009,Guayaki,New Seasons Seattle,West Coast,2025-03-09,Chris M,79
+S010,Guayaki,Natural Grocers Boulder,Midwest,2025-03-11,David P,71
+S011,Nixie,Sprouts San Diego,West Coast,2025-03-03,John D,88
+S012,Nixie,Whole Foods Chicago,Midwest,2025-03-05,Anna K,85
+S013,Nixie,Fresh Market Atlanta,Southeast,2025-03-07,Marcus T,90
+S014,Nixie,Sprouts Nashville,Southeast,2025-03-10,Marcus T,87
+S015,Nixie,Central Market Dallas,Southwest,2025-03-12,John D,83
+S016,C20,Walmart Phoenix,Southwest,2025-03-04,Chris M,72
+S017,C20,Kroger Houston,Southwest,2025-03-06,Anna K,88
+S018,C20,HEB San Antonio,Southwest,2025-03-08,Anna K,91
+S019,C20,Walmart Dallas,Southwest,2025-03-10,Chris M,68
+S020,C20,Albertsons Las Vegas,West Coast,2025-03-12,Emily R,75
+S021,Honey Stinger,REI Denver,Midwest,2025-03-05,David P,96
+S022,Honey Stinger,Fleet Feet Chicago,Midwest,2025-03-07,David P,93
+S023,Honey Stinger,REI Seattle,West Coast,2025-03-09,Emily R,94
+S024,Honey Stinger,Dicks Sporting Goods Atlanta,Southeast,2025-03-11,Marcus T,89
+S025,Honey Stinger,Whole Foods San Francisco,West Coast,2025-03-13,Emily R,92

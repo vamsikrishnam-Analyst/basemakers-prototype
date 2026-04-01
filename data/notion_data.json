@@ -1,0 +1,17 @@
+[
+  {"task_name": "Finalize Q4 promo calendar with OLIPOP team", "status": "In Progress", "owner": "Sarah K", "brand": "OLIPOP", "due_date": "2025-03-20"},
+  {"task_name": "Submit shelf reset photos for 12 pending stores", "status": "Pending", "owner": "Field Team", "brand": "OLIPOP", "due_date": "2025-03-18"},
+  {"task_name": "Send Q3 velocity data to OLIPOP brand partner", "status": "Done", "owner": "Marcus L", "brand": "OLIPOP", "due_date": "2025-03-10"},
+  {"task_name": "Review new SKU placement strategy for Southwest", "status": "Pending", "owner": "Nick D", "brand": "OLIPOP", "due_date": "2025-03-25"},
+  {"task_name": "Address SKU reduction at 8 Natural Grocers doors", "status": "Pending", "owner": "Field Team", "brand": "Guayaki", "due_date": "2025-03-19"},
+  {"task_name": "Deliver Q3 compliance report to Guayaki", "status": "In Progress", "owner": "Sarah K", "brand": "Guayaki", "due_date": "2025-03-21"},
+  {"task_name": "Plan holiday end-cap activation for Guayaki", "status": "Pending", "owner": "Nick D", "brand": "Guayaki", "due_date": "2025-03-28"},
+  {"task_name": "Audit shelf placement post summer reset", "status": "Done", "owner": "Marcus L", "brand": "Guayaki", "due_date": "2025-03-08"},
+  {"task_name": "Onboard 40 new Sprouts doors in Southeast for Nixie", "status": "In Progress", "owner": "Field Team", "brand": "Nixie", "due_date": "2025-03-31"},
+  {"task_name": "Create new brand sell sheet for Nixie Q4 pitch", "status": "Pending", "owner": "Sarah K", "brand": "Nixie", "due_date": "2025-03-26"},
+  {"task_name": "Diagnose cause of C20 shelf compliance drop", "status": "In Progress", "owner": "Nick D", "brand": "C20", "due_date": "2025-03-17"},
+  {"task_name": "Present C20 turnaround plan to brand team", "status": "Pending", "owner": "Sarah K", "brand": "C20", "due_date": "2025-03-22"},
+  {"task_name": "Audit 15 Walmart locations with lowest C20 velocity", "status": "Pending", "owner": "Field Team", "brand": "C20", "due_date": "2025-03-20"},
+  {"task_name": "Brief field team on Honey Stinger Organic Waffle SKU launch", "status": "Pending", "owner": "Nick D", "brand": "Honey Stinger", "due_date": "2025-03-24"},
+  {"task_name": "Expand Honey Stinger REI presence to 20 additional doors", "status": "In Progress", "owner": "Field Team", "brand": "Honey Stinger", "due_date": "2025-03-30"}
+]

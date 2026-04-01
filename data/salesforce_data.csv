@@ -1,0 +1,16 @@
+account_id,brand,region,revenue,opportunity_stage
+A001,OLIPOP,Southwest,120000,Closed Won
+A002,OLIPOP,West Coast,95000,Closed Won
+A003,OLIPOP,Northeast,78000,Negotiation
+A004,Guayaki,West Coast,105000,Closed Won
+A005,Guayaki,Southwest,62000,Negotiation
+A006,Guayaki,Midwest,48000,Prospecting
+A007,Nixie,Midwest,70000,Prospecting
+A008,Nixie,Southeast,54000,Proposal
+A009,Nixie,West Coast,41000,Closed Won
+A010,C20,Southwest,110000,Closed Won
+A011,C20,Midwest,73000,Negotiation
+A012,C20,Northeast,59000,Prospecting
+A013,Honey Stinger,West Coast,85000,Closed Won
+A014,Honey Stinger,Southwest,91000,Closed Won
+A015,Honey Stinger,Midwest,67000,Proposal
