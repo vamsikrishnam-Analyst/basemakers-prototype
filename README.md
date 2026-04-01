@@ -8,7 +8,7 @@ A working data pipeline that pulls from four sources, cleans and merges the data
 
 One thing that came up in our conversation was how data ends up scattered across tools like Slack, Notion, Salesforce, and Repsly. Each team has their own view, and pulling it all together takes a lot of manual work.
 
-I wanted to show how I would actually approach that problem. So I built a small pipeline that ingests data from those four sources, standardizes it, stores it in SQLite, and generates a clean report for any brand partner.
+I wanted to show how I would actually approach that problem. So I built a pipeline that ingests data from those four sources, standardizes it, stores it in SQLite, and generates a clean report for any brand partner.
 
 Pipeline flow:
 Slack JSON + Notion JSON + Salesforce CSV + Repsly CSV → Python pipeline → SQLite → Brand Report
@@ -110,7 +110,7 @@ Honey Stinger    92.8
 OLIPOP           88.8
 Nixie            86.6
 Guayaki          79.2
-C20              76.8
+C20              78.8
 ```
 
 ---
@@ -124,9 +124,11 @@ basemakers_prototype/
 │   ├── salesforce_data.csv
 │   └── repsly_data.csv
 ├── output/
-│   ├── basemakers_demo.db
 │   ├── olipop_report.txt
-│   └── validation_report.txt
+│   ├── guayaki_report.txt
+│   ├── nixie_report.txt
+│   ├── c20_report.txt
+│   └── honey_stinger_report.txt
 ├── src/
 │   ├── load_data.py
 │   ├── clean_data.py
