@@ -14,9 +14,25 @@ def generate_brand_report(merged_df, salesforce_df, repsly_df, notion_df, brand_
     open_tasks = brand_notion[brand_notion["status"].isin(["Pending", "In Progress"])].shape[0]
     recent_updates = brand_merged[brand_merged["record_type"] == "message"].head(3)["description"].tolist()
 
-    strongest_signal = "Revenue is strong and store execution is stable."
-    biggest_risk = "Open operational tasks may delay follow-through if not addressed quickly."
-    next_action = "Review open tasks and align field execution priorities for the next reporting cycle."
+    # Data-driven executive summary
+    if avg_compliance >= 90:
+        strongest_signal = f"Store execution is strong with an average compliance score of {avg_compliance}."
+    elif avg_compliance >= 80:
+        strongest_signal = f"Compliance is steady at {avg_compliance} — room to push higher next quarter."
+    else:
+        strongest_signal = f"Compliance score of {avg_compliance} is below target — needs field attention."
+
+    if open_tasks >= 3:
+        biggest_risk = f"{open_tasks} open tasks in Notion risk slowing execution if not resolved this week."
+    else:
+        biggest_risk = f"{open_tasks} open tasks remaining — operationally in good shape heading into next cycle."
+
+    if total_revenue >= 250000:
+        next_action = f"Revenue at ${total_revenue:,.0f} is strong — prioritize expanding store coverage."
+    elif total_revenue >= 150000:
+        next_action = f"Revenue at ${total_revenue:,.0f} is on track — focus on closing open pipeline opportunities."
+    else:
+        next_action = f"Revenue at ${total_revenue:,.0f} is below target — review pipeline and accelerate open opportunities."
 
     report_lines = [
         f"Brand Report: {brand_name}",
