@@ -6,9 +6,9 @@ Open Tasks               : 3
 
 Executive Summary
 ------------------------------------------------------------
-Strongest Signal : Revenue is strong and store execution is stable.
-Biggest Risk     : Open operational tasks may delay follow-through if not addressed quickly.
-Next Action      : Review open tasks and align field execution priorities for the next reporting cycle.
+Strongest Signal : Compliance score of 78.8 is below target — needs field attention.
+Biggest Risk     : 3 open tasks in Notion risk slowing execution if not resolved this week.
+Next Action      : Revenue at $242,000 is on track — focus on closing open pipeline opportunities.
 
 Recent Slack Updates
 ------------------------------------------------------------
