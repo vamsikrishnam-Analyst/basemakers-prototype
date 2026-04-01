@@ -32,10 +32,3 @@ The use case reflects a real-world environment where business teams rely on mult
 7. Generates a stakeholder-ready brand report  
 
 ## Project Structure
-
-basemakers_prototype/
-├── data/
-├── output/
-├── src/
-├── README.md
-├── requirements.txt
