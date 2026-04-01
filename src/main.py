@@ -1,3 +1,5 @@
+import sys
+
 from load_data import (
     load_slack_data,
     load_notion_data,
@@ -22,6 +24,8 @@ from generate_report import generate_brand_report
 
 
 def main():
+    brand_name = sys.argv[1] if len(sys.argv) > 1 else "OLIPOP"
+
     print("\n=== BASEMAKERS PROTOTYPE PIPELINE STARTED ===")
 
     slack_df = load_slack_data()
@@ -71,7 +75,7 @@ def main():
         salesforce_clean,
         repsly_clean,
         notion_clean,
-        brand_name="OLIPOP"
+        brand_name=brand_name
     )
 
     print("\n=== PIPELINE COMPLETED SUCCESSFULLY ===")
