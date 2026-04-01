@@ -27,6 +27,7 @@ def main():
     brand_name = sys.argv[1] if len(sys.argv) > 1 else "OLIPOP"
 
     print("\n=== BASEMAKERS PROTOTYPE PIPELINE STARTED ===")
+    print(f"Target Brand: {brand_name}")
 
     slack_df = load_slack_data()
     notion_df = load_notion_data()
