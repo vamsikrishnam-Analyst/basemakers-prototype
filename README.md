@@ -1,4 +1,5 @@
 # Basemakers Prototype Pipeline
+End-to-end data pipeline simulating multi-source business data integration and reporting.
 
 ## Key Highlights
 
@@ -41,3 +42,8 @@ basemakers_prototype/
 ├── README.md
 ├── requirements.txt
 ```
+
+## How to Run
+
+```bash
+python src/main.py
