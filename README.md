@@ -1,25 +1,38 @@
 # Basemakers Prototype Pipeline
 
-This project is a small end-to-end prototype that simulates how scattered operational data can be brought into one unified reporting layer.
+## Key Highlights
 
-It uses four simulated data sources:
-- Slack updates
-- Notion tasks
-- Salesforce opportunities
-- Repsly field visit data
+- Built an end-to-end data pipeline integrating four business systems (Slack, Notion, Salesforce, Repsly)
+- Processed and standardized both structured and unstructured data for analysis
+- Designed a unified reporting layer to support cross-functional decision-making
+- Implemented SQL-based analytics for revenue, compliance, and operational tracking
+- Generated automated, stakeholder-ready brand reports with clear business insights
 
-The pipeline does the following:
-1. Loads JSON and CSV data from multiple sources
-2. Cleans and standardizes the data
-3. Runs validation checks for quality and consistency
-4. Merges all sources into a unified reporting layer
-5. Saves the data into SQLite
-6. Runs SQL queries for reporting
-7. Generates a stakeholder-ready brand report
+## Overview
+
+This project simulates how fragmented operational data from tools like Slack, Notion, Salesforce, and field execution platforms can be consolidated into a single reporting layer.
+
+The use case reflects a real-world environment where business teams rely on multiple systems for communication, operations, revenue tracking, and field execution.
+
+## Data Sources
+
+- Slack updates (unstructured communication)
+- Notion tasks (operational tracking)
+- Salesforce opportunities (revenue data)
+- Repsly field visit data (store execution)
+
+## Pipeline Workflow
+
+1. Loads JSON and CSV data from multiple sources  
+2. Cleans and standardizes the data  
+3. Runs validation checks for quality and consistency  
+4. Merges all sources into a unified reporting layer  
+5. Stores processed data in SQLite  
+6. Executes SQL queries for business insights  
+7. Generates a stakeholder-ready brand report  
 
 ## Project Structure
 
-```text
 basemakers_prototype/
 ├── data/
 ├── output/
